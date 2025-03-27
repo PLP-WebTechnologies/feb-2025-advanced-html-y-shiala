@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sock it socks Store</title>
+</head>
+
+<body>
+
+  <h1>Welcome to Cozy Socks Store 🧦</h1>
+  <p>Your one-stop shop for warm and comfy socks!</p>
+
+  <h2>Featured Sock</h2>
+  <img src="featured-socks.jpg" alt="Cozy Sock" width="350" height="350">
+
+  <h2>Watch our sock AD</h2>
+  <video controls autoplay loop muted  width="400">
+    <source src="sock-ad.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Relaxing Sock Music</h2>
+  <audio controls>
+    <source src="relaxing-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Sign Up for Special Offers!</h2>
+  <form action="#" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6"><br><br>
+
+    <label for="size">Sock Size:</label>
+    <select id="size" name="size" required>
+      <option value="">Select Size</option>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select><br><br>
+    <h2>Compare Sock Types</h2>
+
+    <label><input type="radio" name="sockType" value="winter" required> Cozy Winter Socks - Warm and perfect for cold
+      weather.</label><br>
+    <label><input type="radio" name="sockType" value="sports"> Sporty Socks - Breathable and designed for athletic
+      activities.</label><br>
+    <label><input type="radio" name="sockType" value="casual"> Casual Everyday Socks - Comfortable for daily
+      use.</label><br>
+    <label><input type="radio" name="sockType" value="dress"> Elegant Dress Socks - Stylish and made for formal
+      occasions.</label><br>
+
+    <h2>What Do You Love About Socks?</h2>
+
+    <label><input type="checkbox" name="sockLove" value="warmth"> Warmth & Comfort</label><br>
+    <label><input type="checkbox" name="sockLove" value="style"> Stylish & Trendy</label><br>
+    <label><input type="checkbox" name="sockLove" value="soft"> Soft & Cozy Material</label><br>
+    <label><input type="checkbox" name="sockLove" value="durable"> Durable & Long-lasting</label><br>
+    <label><input type="checkbox" name="sockLove" value="variety"> Variety of Colors & Designs</label><br><br>
+
+
+
+
+    <button type="submit">Register</button>
+  </form>
+
+  <h2>Sock Collections & Prices</h2>
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Material</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Cozy Winter Socks</td>
+      <td>Wool</td>
+      <td>$15</td>
+    </tr>
+    <tr>
+      <td>Sporty Socks</td>
+      <td>Cotton</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Elegant Dress Socks</td>
+      <td>Silk</td>
+      <td>$20</td>
+    </tr>
+  </table>
+
+  <h2>Types of Socks We Offer</h2>
+  <ul>
+    <li>Winter Socks</li>
+    <li>Sports Socks</li>
+    <li>Casual Everyday Socks</li>
+    <li>Compression Socks</li>
+    <li>Dress Socks</li>
+  </ul>
+
+
+
+</body>
+
+</html>
